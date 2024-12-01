@@ -1,26 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LC Trading Crypto</title>
+    <title>IcTradingCrypto - Présentation et Studies</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
             color: #333;
         }
-        p {
-            color: #555;
+
+        header {
+            background: linear-gradient(to right, #0066cc, #00cc99);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-height: 60px;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #0066cc;
+            border-bottom: 2px solid #00cc99;
+            padding-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        section img {
+            max-height: 40px;
+        }
+
+        section p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background: #00cc99;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px; /* Ajout d'espace supplémentaire */
+            position: relative; /* Assurez-vous que le footer reste en bas du contenu */
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optionnel, pour un effet esthétique */
+        }
+
+        footer a {
+            color: #00cc99;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Bienvenue sur LC Trading Crypto</h1>
-    <p>Site web personnel pour présenter mes projets.</p>
+
+<header>
+    <img src="C:/Users/lctra/Desktop/Projet cube collect and more/Site web/Capture d’écran 2022-03-22 1042521.png" alt="Logo Trading">
+    <h1>IcTradingCrypto</h1>
+    <p>Présentation de mes compétences informatiques et financières</p>
+</header>
+
+<section>
+    <h2><img src="C:/Users/lctra/Desktop/Projet cube collect and more/Site web/Capture d’écran 2022-03-22 1042521.png" alt="Icône Qui suis-je"> Qui suis-je ?</h2>
+    <p>Passionné par la finance et les technologies, je vous propose ici une démonstration de mes compétences en programmation et en analyse de données de marché. À travers l'utilisation de la plateforme Sierra Chart, je mets en avant des outils développés pour répondre aux besoins spécifiques des traders.</p>
+</section>
+
+<section>
+    <h2><img src="C:/Users/lctra/Desktop/Projet cube collect and more/Site web/logo_sierra_chart_resized.png" alt="Icône À propos de Sierra Chart"> À propos de Sierra Chart</h2>
+    <p>Sierra Chart est une plateforme de trading professionnelle reconnue pour sa flexibilité et ses outils avancés. Elle permet d’analyser les marchés financiers grâce à des graphiques personnalisables, des indicateurs techniques et des outils d’automatisation.</p>
+</section>
+
+<section>
+    <h2><img src="C:/Users/lctra/Desktop/Projet cube collect and more/Site web/LineStudy.png" alt="Icône Les Studies"> Les Studies</h2>
+    <p>Les studies sont des modules personnalisés qui enrichissent la plateforme Sierra Chart en ajoutant des fonctionnalités adaptées aux besoins spécifiques des traders. Ces études, écrites en ACSIL (un langage basé sur C++), offrent des indicateurs techniques, des stratégies automatisées et des outils visuels.</p>
+</section>
+
+<section>
+    <h2><img src="C:/Users/lctra/Desktop/Projet cube collect and more/Site web/images.png" alt="Icône Ce que je propose"> Ce que je propose</h2>
+    <p>Je vous invite à explorer deux studies que j’ai créées. Vous pourrez consulter leur code source en C++ ainsi que les simulations visuelles correspondantes au format MP4. Ces fichiers sont accessibles en téléchargement et illustrent mon savoir-faire technique.</p>
+    <div class="buttons">
+        <a href="study1.zip" download="Study 1">Télécharger Study 1</a>
+        <a href="study2.zip" download="Study 2">Télécharger Study 2</a>
+    </div>
+</section>
+
+<footer>
+    © 2024 IcTradingCrypto | Tous droits réservés
+</footer>
+
 </body>
 </html>
