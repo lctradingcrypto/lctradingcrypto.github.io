@@ -64,19 +64,42 @@
         }
 
         .buttons {
-            text-align: center;
-            margin-top: 20px;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .buttons h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #0066cc;
+        }
+
+        .buttons ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .buttons ul li {
+            margin: 0;
+            flex: 1 1 calc(50% - 10px); /* Deux colonnes adaptatives */
+            display: flex;
+            justify-content: center;
         }
 
         .buttons a {
             background: #0066cc;
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 8px 15px;
             border-radius: 5px;
-            margin: 5px;
-            display: inline-block;
+            font-size: 0.9rem;
+            text-align: center;
             transition: background 0.3s ease;
+            display: block;
+            max-width: 180px;
         }
 
         .buttons a:hover {
