@@ -64,42 +64,20 @@
         }
 
         .buttons {
-            text-align: left;
+            text-align: center;
             margin-top: 10px;
-        }
-
-        .buttons h3 {
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-            color: #0066cc;
-        }
-
-        .buttons ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .buttons ul li {
-            margin: 0;
-            flex: 1 1 calc(50% - 10px); /* Deux colonnes adaptatives */
-            display: flex;
-            justify-content: center;
         }
 
         .buttons a {
             background: #0066cc;
             color: white;
             text-decoration: none;
-            padding: 8px 15px;
+            padding: 10px 20px;
             border-radius: 5px;
-            font-size: 0.9rem;
+            font-size: 1rem;
             text-align: center;
             transition: background 0.3s ease;
-            display: block;
-            max-width: 180px;
+            display: inline-block;
         }
 
         .buttons a:hover {
@@ -134,24 +112,14 @@
 
 <section>
     <h2><img src="images.png" alt="Icône Ce que je propose"> Ce que je propose</h2>
-    <p>Voici les fichiers et dossiers disponibles pour téléchargement :</p>
+    <p>Voici les fichiers compressés disponibles pour téléchargement :</p>
 
     <div class="buttons">
-        <h3>Study 1</h3>
-        <ul>
-            <li><a href="Study1/Study1.cpp" download="Study1.cpp">Télécharger Study1.cpp</a></li>
-            <li><a href="Study1/Study1.mp4" download="Study1.mp4">Télécharger Study1.mp4</a></li>
-            <li><a href="Study1/Study1.py" download="Study1.py">Télécharger Study1.py</a></li>
-        </ul>
+        <a href="Study1.tar" download="Study1.tar">Télécharger le dossier Study 1</a>
     </div>
 
     <div class="buttons">
-        <h3>Study 2</h3>
-        <ul>
-            <li><a href="Study2/Study2.cpp" download="Study2.cpp">Télécharger Study2.cpp</a></li>
-            <li><a href="Study2/Study2.mp4" download="Study2.mp4">Télécharger Study2.mp4</a></li>
-            <li><a href="Study2/Study2.py" download="Study2.py">Télécharger Study2.py</a></li>
-        </ul>
+        <a href="Study2.tar" download="Study2.tar">Télécharger le dossier Study 2</a>
     </div>
 </section>
 
